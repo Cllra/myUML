@@ -1,0 +1,23 @@
+// {type:usecase}
+// {direction:leftToRight}
+(note: figure 1.2{bg:beige})
+[Teamleiter]-(Register)
+[Mitarbeiter]-(Register)
+[Admin]-(GivesUserRole)
+[Admin]-(DeleteUser)
+[Admin]-(LockUser)
+
+
+[Admin]-(Login)
+[Teamleiter]-(Login)
+[Mitarbeiter]-(Login)
+
+[Teamleiter]-(LockUser)
+
+
+[Buchhaltung]-(FutureUser)
+
+
+
+
+
