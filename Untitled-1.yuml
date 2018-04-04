@@ -1,0 +1,16 @@
+// {type:usecase}
+// {direction:leftToRight}
+(note: figure 1.2{bg:beige})
+[OP-Leitung]-(Login)
+[OP-Leitung]-(Ernennung von Mitarbeitern)
+
+[SteriMuc]-(Zugang Instaccount)
+(Zugang Instaccount)>(Operations module)
+[SteriMuc]-(Schulung OP-Personal)
+
+[Admin]-(Browse Docs)
+
+
+[Admin]-(Browse Docs2)
+
+
